@@ -1,4 +1,4 @@
-package vd.android.geolocation.module.permission;
+package eco.android.geolocation.module.permission;
 
 import android.app.Activity;
 import android.app.AlertDialog;

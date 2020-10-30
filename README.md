@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/geolocation
+eco plugin install https://github.com/kjeco/geolocation
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/geolocation
+eco plugin uninstall https://github.com/kjeco/geolocation
 ```
 
 ## 引用
 
 ```js
-const geolocation = app.requireModule("vd/geolocation");
+const geolocation = app.requireModule("eco/geolocation");
 ```
 
 ### get(callback) 获取当前定位

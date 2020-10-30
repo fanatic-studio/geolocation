@@ -1,4 +1,4 @@
-package vd.android.geolocation.module;
+package eco.android.geolocation.module;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,11 +13,11 @@ import com.taobao.weex.common.WXModule;
 import java.util.HashMap;
 import java.util.Locale;
 
-import vd.android.geolocation.module.geolocation.Constant;
-import vd.android.geolocation.module.geolocation.GeoModule;
-import vd.android.geolocation.module.geolocation.ModuleResultListener;
-import vd.android.geolocation.module.geolocation.Util;
-import vd.android.geolocation.module.permission.PermissionChecker;
+import eco.android.geolocation.module.geolocation.Constant;
+import eco.android.geolocation.module.geolocation.GeoModule;
+import eco.android.geolocation.module.geolocation.ModuleResultListener;
+import eco.android.geolocation.module.geolocation.Util;
+import eco.android.geolocation.module.permission.PermissionChecker;
 
 public class AppgeolocationModule extends WXModule {
 
@@ -44,7 +44,7 @@ public class AppgeolocationModule extends WXModule {
                 dialog.put("message", "Please allow the app to get your location");
             }
 
-            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new vd.android.geolocation.module.permission.ModuleResultListener() {
+            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new eco.android.geolocation.module.permission.ModuleResultListener() {
                 @Override
                 public void onResult(Object o) {
                     if (o != null && o.toString().equals("true")) {
@@ -77,7 +77,7 @@ public class AppgeolocationModule extends WXModule {
                 dialog.put("message", "Please allow the app to get your location");
             }
 
-            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new vd.android.geolocation.module.permission.ModuleResultListener() {
+            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new eco.android.geolocation.module.permission.ModuleResultListener() {
                 @Override
                 public void onResult(Object o) {
                     if (o != null && o.toString().equals("true")) {

@@ -1,6 +1,6 @@
 {
 	"desc": "获取当前位置、实时监听定位",
-	"requireFormatName": "vdGeolocation",
-	"requireName": "vd/geolocation",
+	"requireFormatName": "ecoGeolocation",
+	"requireName": "eco/geolocation",
 	"title": "地理定位"
 }

@@ -1,4 +1,4 @@
-package vd.android.geolocation.module.geolocation;
+package eco.android.geolocation.module.geolocation;
 
 import android.content.Context;
 import android.location.Criteria;

@@ -1,12 +1,12 @@
-package vd.android.geolocation.entry;
+package eco.android.geolocation.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.geolocation.module.AppgeolocationModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.geolocation.module.AppgeolocationModule;
 
 @ModuleEntry
 public class geolocationEntry {
@@ -19,7 +19,7 @@ public class geolocationEntry {
 
         //1、注册weex模块
         try {
-            WXSDKEngine.registerModule("vdGeolocation", AppgeolocationModule.class);
+            WXSDKEngine.registerModule("ecoGeolocation", AppgeolocationModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

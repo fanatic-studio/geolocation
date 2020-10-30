@@ -13,7 +13,7 @@
 
 @implementation AppgeolocationModule
 
-WX_PlUGIN_EXPORT_MODULE(vdGeolocation, AppgeolocationModule)
+WX_PlUGIN_EXPORT_MODULE(ecoGeolocation, AppgeolocationModule)
 WX_EXPORT_METHOD(@selector(get:))
 WX_EXPORT_METHOD(@selector(watch::))
 WX_EXPORT_METHOD(@selector(clearWatch:))
